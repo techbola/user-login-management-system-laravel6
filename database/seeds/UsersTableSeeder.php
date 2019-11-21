@@ -33,7 +33,7 @@ class UsersTableSeeder extends Seeder
         ]);
 
         $user = User::create([
-            'name' => 'User',
+            'name' => 'Generic User',
             'email' => 'user@user.com',
             'password' => \Illuminate\Support\Facades\Hash::make('techbola')
         ]);
